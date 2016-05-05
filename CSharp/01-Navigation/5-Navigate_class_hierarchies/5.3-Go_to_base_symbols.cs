@@ -12,7 +12,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
     {
         public void Method()
         {
-            // 1. Put the caret on ICustomer and Go To Base Symbols
+            // 1. Put the caret on Customer and Go To Base Symbols
             //    Navigated to ICustomer
             Customer customer = GetCustomer();
 

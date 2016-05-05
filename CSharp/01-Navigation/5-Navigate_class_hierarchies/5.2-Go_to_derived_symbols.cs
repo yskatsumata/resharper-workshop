@@ -17,7 +17,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
             //    Customer is bold because it's a direct implementation of ICustomer
             //    SilverCustomer and GoldCustomer are indirect implementations
             //    (because they derive from Customer)
-            // 2. Put the caret on ICustomer and Go To Implementation
+            // 2. Put the caret on ICustomer and Go To Derived Symbols
             //    Filter by typing, middle matching, wildcards and CamelHumps
             ICustomer customer = GetCustomer();
 
