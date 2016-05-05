@@ -84,6 +84,10 @@
     <Compile Include="4-Contextual_navigation\4.7-Navigate_To_menu_related_files_forms.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="5-Navigate_class_hierarchies\5.1-Go_to_implementation.vb" />
+    <Compile Include="5-Navigate_class_hierarchies\5.2-Go_to_derived_symbols.vb" />
+    <Compile Include="5-Navigate_class_hierarchies\5.3-Go_to_base_symbols.vb" />
+    <Compile Include="5-Navigate_class_hierarchies\ExampleCode\ICustomer.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
