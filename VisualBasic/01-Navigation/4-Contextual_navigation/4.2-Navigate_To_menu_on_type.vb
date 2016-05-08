@@ -60,7 +60,7 @@ Namespace JetBrains.ReSharper.Koans.Navigation
         End Sub
     End Class
 
-    ' # Not supported on VB.NET?
+    ' # Not supported for VB.NET?
     ' 4. When the caret Is on an implementing interface defined in another assembly
     '    a) Doing Go To Derived Symbols on IComponent will only show SimpleComponent
     '    b) Navigate to Declaration of IComponent And then doing Go To Derived Symbols

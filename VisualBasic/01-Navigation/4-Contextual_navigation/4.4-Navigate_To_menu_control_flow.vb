@@ -2,7 +2,7 @@
 Imports System.Collections.Generic
 
 Namespace JetBrains.ReSharper.Koans.Navigation
-    ' # Not supported on VB.NET?
+    ' # Not supported for VB.NET?
     '
     ' Navigate To menu
     '
