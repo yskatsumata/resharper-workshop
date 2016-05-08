@@ -20,7 +20,7 @@
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>JetBrains.ReSharper.Koans.Navigation.xml</DocumentationFile>
-    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,7 +29,7 @@
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>JetBrains.ReSharper.Koans.Navigation.xml</DocumentationFile>
-    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
     <OptionExplicit>On</OptionExplicit>
@@ -38,20 +38,24 @@
     <OptionCompare>Binary</OptionCompare>
   </PropertyGroup>
   <PropertyGroup>
-    <OptionStrict>On</OptionStrict>
+    <OptionStrict>Off</OptionStrict>
   </PropertyGroup>
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -88,6 +92,11 @@
     <Compile Include="5-Navigate_class_hierarchies\5.2-Go_to_derived_symbols.vb" />
     <Compile Include="5-Navigate_class_hierarchies\5.3-Go_to_base_symbols.vb" />
     <Compile Include="5-Navigate_class_hierarchies\ExampleCode\ICustomer.vb" />
+    <Compile Include="6-Find_usages\6.1-Highlight_usages_in_file.vb" />
+    <Compile Include="6-Find_usages\6.2-Find_usages.vb" />
+    <Compile Include="6-Find_usages\6.3-Find_usages_advanced.vb" />
+    <Compile Include="6-Find_usages\6.4-Quick_find_usages.vb" />
+    <Compile Include="7-File_structure_window\7.1-File_structure_window.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -116,6 +125,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="7-File_structure_window\7.1-File_structure_window.web.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -145,6 +155,16 @@
     <Content Include="4-Contextual_navigation\ExampleCode\style1.css" />
     <Content Include="4-Contextual_navigation\ExampleCode\style2.css" />
     <Content Include="4-Contextual_navigation\ExampleCode\style3.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="6-Find_usages\6.2-Find_usages_example.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7-File_structure_window\7.1-File_structure_window.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
