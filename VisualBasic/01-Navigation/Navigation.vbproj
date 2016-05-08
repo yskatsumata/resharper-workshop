@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{26AA4AAF-5E14-438C-AA23-1DF4AA0AAA1A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>JetBrains.ReSharper.Koans.Navigation</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>JetBrains.ReSharper.Koans.Navigation.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>JetBrains.ReSharper.Koans.Navigation.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2-Navigate_to_definition\2.1-Go_to_definition.vb" />
+    <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.1-Navigate_back.vb" />
+    <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.3-Recent-edits.vb" />
+    <Compile Include="3-Navigate_to_somewhere_youve_already_been\3.4-Bookmarks.vb" />
+    <Compile Include="4-Contextual_navigation\4.1-Navigate_To_menu.vb" />
+    <Compile Include="4-Contextual_navigation\4.2-Navigate_To_menu_on_type.vb" />
+    <Compile Include="4-Contextual_navigation\4.5-Navigate_To_menu_type_of_symbol.vb" />
+    <Compile Include="4-Contextual_navigation\4.6-Navigate_To_menu_tools.vb" />
+    <Compile Include="4-Contextual_navigation\4.7_Navigate_To_menu_related_files_partial.vb" />
+    <Compile Include="4-Contextual_navigation\ExampleCode\4.7_Navigate_to_menu_related_files_partial2.vb" />
+    <Compile Include="4-Contextual_navigation\ExampleCode\4.7_Navigate_to_menu_related_files_partial3.vb" />
+    <Compile Include="4-Contextual_navigation\ExampleCode\NavigateToExampleCode.vb" />
+    <Compile Include="4-Contextual_navigation\4.3-Navigate_To_menu_on_method.vb" />
+    <Compile Include="4-Contextual_navigation\4.4-Navigate_To_menu_control_flow.vb" />
+    <Compile Include="4-Contextual_navigation\4.7-Navigate_To_menu_related_files_forms.Designer.vb">
+      <DependentUpon>4.7-Navigate_To_menu_related_files_forms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4-Contextual_navigation\4.7-Navigate_To_menu_related_files_forms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5-Navigate_class_hierarchies\5.1-Go_to_implementation.vb" />
+    <Compile Include="5-Navigate_class_hierarchies\5.2-Go_to_derived_symbols.vb" />
+    <Compile Include="5-Navigate_class_hierarchies\5.3-Go_to_base_symbols.vb" />
+    <Compile Include="5-Navigate_class_hierarchies\ExampleCode\ICustomer.vb" />
+    <Compile Include="6-Find_usages\6.1-Highlight_usages_in_file.vb" />
+    <Compile Include="6-Find_usages\6.2-Find_usages.vb" />
+    <Compile Include="6-Find_usages\6.3-Find_usages_advanced.vb" />
+    <Compile Include="6-Find_usages\6.4-Quick_find_usages.vb" />
+    <Compile Include="7-File_structure_window\7.1-File_structure_window.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="4-Contextual_navigation\4.7-Navigate_To_menu_related_files_forms.resx">
+      <DependentUpon>4.7-Navigate_To_menu_related_files_forms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="7-File_structure_window\7.1-File_structure_window.web.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1-Navigate_to_something_you_know\ExampleCode\ExampleCode.vb" />
+    <Content Include="1-Navigate_to_something_you_know\1.1-Go_to_everything.txt" />
+    <Content Include="1-Navigate_to_something_you_know\1.2-Go_to_type.txt" />
+    <Content Include="1-Navigate_to_something_you_know\1.3-Go_to_symbol.txt" />
+    <Content Include="1-Navigate_to_something_you_know\1.4-Go_to_file.txt" />
+    <Compile Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.vb" />
+    <Content Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.js" />
+    <Content Include="1-Navigate_to_something_you_know\1.5-Go_to_file_member.xml" />
+    <Content Include="1-Navigate_to_something_you_know\1.6-Go_to_tips.txt" />
+    <Content Include="1-Navigate_to_something_you_know\ExampleCode\Example_code.js" />
+    <Content Include="3-Navigate_to_somewhere_youve_already_been\3.2-Recent_files.txt" />
+    <Content Include="4-Contextual_navigation\4.7-Navigate_To_menu_related_files.html" />
+    <Content Include="4-Contextual_navigation\ExampleCode\script1.js" />
+    <Content Include="4-Contextual_navigation\ExampleCode\script2.js" />
+    <Content Include="4-Contextual_navigation\ExampleCode\script3.js" />
+    <Content Include="4-Contextual_navigation\ExampleCode\style1.css" />
+    <Content Include="4-Contextual_navigation\ExampleCode\style2.css" />
+    <Content Include="4-Contextual_navigation\ExampleCode\style3.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="6-Find_usages\6.2-Find_usages_example.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7-File_structure_window\7.1-File_structure_window.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
