@@ -70,6 +70,7 @@
     <Compile Include="01-Code_completion\1.4-Double_completion.vb" />
     <Compile Include="01-Code_completion\1.5-Filter_completion.vb" />
     <Compile Include="01-Code_completion\1.6-Complete_statement.vb" />
+    <Compile Include="02-Quick_documentation.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
