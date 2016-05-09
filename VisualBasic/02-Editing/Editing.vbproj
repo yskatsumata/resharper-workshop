@@ -65,6 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="01-Code_completion\1.1-Automatic_completion.vb" />
+    <Compile Include="01-Code_completion\1.2-Import_completion.vb" />
+    <Compile Include="01-Code_completion\1.3-Smart_completion.vb" />
+    <Compile Include="01-Code_completion\1.4-Double_completion.vb" />
+    <Compile Include="01-Code_completion\1.5-Filter_completion.vb" />
+    <Compile Include="01-Code_completion\1.6-Complete_statement.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
