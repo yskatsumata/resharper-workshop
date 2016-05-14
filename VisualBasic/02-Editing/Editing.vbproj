@@ -46,6 +46,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.2.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.2.1\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -71,6 +75,15 @@
     <Compile Include="01-Code_completion\1.5-Filter_completion.vb" />
     <Compile Include="01-Code_completion\1.6-Complete_statement.vb" />
     <Compile Include="02-Quick_documentation.vb" />
+    <Compile Include="03-ParameterInfo.vb" />
+    <Compile Include="04-Selecting_code.vb" />
+    <Compile Include="05-Rearranging_code.vb" />
+    <Compile Include="06-Surround_with.vb" />
+    <Compile Include="07-Generating_code.vb" />
+    <Compile Include="08-Undefined_code.vb" />
+    <Compile Include="09-Duplicating_code.vb" />
+    <Compile Include="10-Commenting_code.vb" />
+    <Compile Include="11-Clipboard_ring.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -105,6 +118,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

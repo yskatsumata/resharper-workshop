@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Essential Shortcuts", "00 Essential Shortcuts", "{9E685163-70B6-42A6-A545-4E08E02A7D13}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Navigation", "01-Navigation", "{509E56F0-61BA-4FA8-83E3-AFDE94C8E25F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Navigation", "01 Navigation", "{509E56F0-61BA-4FA8-83E3-AFDE94C8E25F}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EssentialShortcuts", "00-EssentialShortcuts\EssentialShortcuts.vbproj", "{3B68F08B-355A-4DEB-953F-7D699C9DD0C6}"
 EndProject
