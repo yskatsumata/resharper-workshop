@@ -6,8 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F311F7F5-1FF2-433C-BC57-C23AB2FCD406}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Editing</RootNamespace>
-    <AssemblyName>Editing</AssemblyName>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>JetBrains.ReSharper.Koans.Editing</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -19,7 +20,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Editing.xml</DocumentationFile>
+    <DocumentationFile>JetBrains.ReSharper.Koans.Editing.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -29,7 +30,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Editing.xml</DocumentationFile>
+    <DocumentationFile>JetBrains.ReSharper.Koans.Editing.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>

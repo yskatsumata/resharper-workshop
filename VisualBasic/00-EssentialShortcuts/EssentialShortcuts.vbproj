@@ -6,7 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3B68F08B-355A-4DEB-953F-7D699C9DD0C6}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>EssentialShortcuts</RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>EssentialShortcuts</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>

@@ -75,6 +75,8 @@
     <Compile Include="1-As_you_type\1.7-Find_code_issues.vb" />
     <Compile Include="1-As_you_type\1.8-Solution_wide_analysis.vb" />
     <Compile Include="2-Inspect_This_menu\2.1-Hierarchies.vb" />
+    <Compile Include="2-Inspect_This_menu\2.2-Call_tracking.vb" />
+    <Compile Include="2-Inspect_This_menu\2.3-Value_tracking.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
