@@ -69,7 +69,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
             public void Method()
             {
                 var @base = new Base();
-                Console.WriteLine(@base.PropertyOnBase);
+                Console.WriteLine(@base.UsedPropertyOnBase);
             }
         }
     }
